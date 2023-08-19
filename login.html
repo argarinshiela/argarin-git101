@@ -11,6 +11,14 @@ To Do: Implement submit and cancel functionality -->
 </head>
 <body>
     <center>
+        <script>
+            function onLoginBtnClick(){
+            alert(document.getElementById("txtUsername").value);
+            }
+            function onClearBtnClick(){
+            document.getElementById("txtUsername").value = "";
+            }
+        </script>
 
         <form class="login">
             <label for="txtUsername"> Username: </label>
